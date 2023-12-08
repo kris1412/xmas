@@ -32,6 +32,9 @@
 <br><br>
    <input onclick="randomTxt();" type="button" value="Randomize for me.">
    <input onclick="randomTxtt();" type="button" value="Randomizo!">
+
+   <input type="text" placeholder="What's another name for christ?">
+   <input onclick="quiz();" type="button" value="submit">
 </body>
 </html>
 
@@ -70,6 +73,16 @@ function randomTxt(){
 
 function randomTxtt(){
     alert(randomText[0,4]);
+}
+
+var ans = "jesus";
+
+function quiz(){
+    if (ans = "jesus"){
+        alert("Wow! You got it.")
+    }else{
+        alert("Hmm. Not quite right...")
+    }
 }
 
 </script>
